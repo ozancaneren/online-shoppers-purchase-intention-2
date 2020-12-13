@@ -29,7 +29,6 @@ The description and link for the data is: http://archive.ics.uci.edu/ml/datasets
 
 
 ## C – Initial Model Building with All Features
-
 In the python notebook in this repository, I first build prediction models using all of the features in the data. I use different methods such as:
 
 - Simple Decision Tree Classifier
@@ -42,15 +41,13 @@ In the python notebook in this repository, I first build prediction models using
 - CatBoost Classifier<br><br><br>
 
 ## D – Feature Selection
-
 I use the “feature_importances_” function to calculate feature importance values. I create much simpler models in which only the most important “n” features are to be found. This way, it is possible to achieve high ROC AUC Scores with much leaner and simpler models.<br><br><br>
 
 
 ## E – Hyperparameter Tuning
-
 I conduct hyperparameter tuning to further improve the ROC AUC Scores of the predictive models.<br><br><br>
 
 
 ## F – Conclusion
-
+<img width="676" alt="Final Table" src="https://user-images.githubusercontent.com/75792293/102025046-7911b080-3da6-11eb-9d38-45ec3271571c.png">
 
